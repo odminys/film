@@ -18,7 +18,8 @@ ul {
   margin: 2px 0 22px 17px;
 }
 
-ul, li {
+ul,
+li {
   margin: 0 0 6px 0;
   padding: 0 0 4px 0;
   line-height: 1.5em;
@@ -28,19 +29,23 @@ hr {
   border: solid 1px #f3f3f3;
 }
 
-input[type="text"], input[type="password"], input[type="search"] {
+input[type="text"],
+input[type="password"],
+input[type="search"] {
   color: #5d5d5d;
   width: 60%;
   padding: 8px;
 }
 
-input, textarea {
+input,
+textarea {
   outline: none;
   border: none;
   border: solid 1px #f2f2f2;
 }
 
-h1, h2 {
+h1,
+h2 {
   font: normal 170% 'century gothic', arial;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;
@@ -51,7 +56,8 @@ h2 {
   font-size: 140%;
 }
 
-a, a:hover {
+a,
+a:hover {
   outline: none;
   text-decoration: underline;
   color: #aeb002;
@@ -66,7 +72,11 @@ a, a:hover {
   min-width: 900px;
 }
 
-.main, .logo, .menubar, .site_content, .footer {
+.main,
+.logo,
+.menubar,
+.site_content,
+.footer {
   margin-left: auto;
   margin-right: auto;
 }
@@ -76,12 +86,15 @@ a, a:hover {
   padding-bottom: 40px;
 }
 
-.logo h1, .logo h2 {
+.logo h1,
+.logo h2 {
   margin: 0 0 0 9px;
   font: normal 300% 'century gothic', arial, sans-serif;
 }
 
-.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover {
+.logo_text h1,
+.logo_text h1 a,
+.logo_text h1 a:hover {
   padding: 22px 0 0 0;
   color: #fff;
   letter-spacing: 0.1em;
@@ -90,7 +103,7 @@ a, a:hover {
 
 .logo_text h2 {
   font-size: 0.9em;
-  padding:  4px 0 0 0;
+  padding: 4px 0 0 0;
   color: #999;
 }
 
@@ -102,6 +115,7 @@ a, a:hover {
 ul.menu {
   float: right;
 }
+
 ul.menu li {
   float: left;
   padding: 0 0 0 9px;
@@ -111,7 +125,8 @@ ul.menu li {
 
 ul.menu li a {
   font: normal 100% 'trebuchet ms', sans-serif;
-  display: block; /* отображение контента как блока */
+  display: block;
+  /* отображение контента как блока */
   height: 20px;
   padding: 6px 35px 5px 28px;
   color: #fff;
@@ -143,15 +158,18 @@ ul.menu li a:hover {
   width: 222px;
   padding: 5%;
   margin: 0 0 16px 0;
-  border: solid 1px #f2f2f2; /* рамка блока */
-  border-radius: 5px;  /* скругление углов */
+  border: solid 1px #f2f2f2;
+  /* рамка блока */
+  border-radius: 5px;
+  /* скругление углов */
   background-color: #f9f9f9;
 }
 
 .btn {
   padding: 8px;
   background-color: white;
-  cursor: pointer; /* изменение курсора при наведении */
+  cursor: pointer;
+  /* изменение курсора при наведении */
 }
 
 .sidebar h2 {
@@ -165,7 +183,7 @@ ul.menu li a:hover {
 }
 
 .sidebar ul {
-  margin:  0;
+  margin: 0;
 }
 
 .sidebar li {
@@ -177,7 +195,7 @@ ul.menu li a:hover {
   float: right;
 }
 
-.content  {
+.content {
   text-align: left;
   width: 620px;
   padding: 0 0 0 5px;
@@ -251,7 +269,8 @@ ul.menu li a:hover {
   margin-bottom: 4%;
 }
 
-.send input[type="text"], textarea {
+.send input[type="text"],
+textarea {
   border: solid 1px #c3c3c3;
   margin-bottom: 2%;
 }
@@ -277,7 +296,8 @@ ul.menu li a:hover {
   width: 65%;
 }
 
-.contact input[type="text"], textarea {
+.contact input[type="text"],
+textarea {
   border: solid 1px #c3c3c3;
   margin-bottom: 2%;
 }
