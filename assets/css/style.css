@@ -545,7 +545,7 @@ and (max-device-width : 568px) {
     width: 100%;
   }
   .contact textarea {
-    width: 85%;
+    width: 95%;
   }
 
   .contact input[type=text] {
